@@ -1,0 +1,10 @@
+{
+  "pinned": [
+    "editor:undo",
+    "editor:redo",
+    "note-composer:split-file",
+    "obsidian-map-view:add-frontmatter-geolocation",
+    "editor:toggle-fold-properties",
+    "workspace:next-tab"
+  ]
+}

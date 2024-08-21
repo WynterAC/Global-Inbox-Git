@@ -1,0 +1,148 @@
+{
+  "presetFields": [
+    {
+      "type": "DateTime",
+      "tagName": "date",
+      "icon": "calendar-clock",
+      "tooltip": "Accepts a date with time",
+      "colorClass": "date",
+      "options": {
+        "dateShiftInterval": "1 day",
+        "dateFormat": "YYYY-MM-DD HH:mm",
+        "defaultInsertAsLink": false,
+        "linkPath": ""
+      },
+      "name": "modified",
+      "id": "CrfdlQ",
+      "path": ""
+    },
+    {
+      "type": "YAML",
+      "tagName": "yaml",
+      "icon": "file-json-2",
+      "tooltip": "Accepts a YAML object",
+      "colorClass": "file",
+      "options": {},
+      "name": "yaml",
+      "id": "Xxb9aA",
+      "path": ""
+    },
+    {
+      "type": "DateTime",
+      "tagName": "date",
+      "icon": "calendar-clock",
+      "tooltip": "Accepts a date with time",
+      "colorClass": "date",
+      "options": {
+        "dateShiftInterval": "1 day",
+        "dateFormat": "YYYY-MM-DD HH:mm",
+        "defaultInsertAsLink": false,
+        "linkPath": ""
+      },
+      "name": "created",
+      "id": "bxbNFL",
+      "path": "",
+      "command": {
+        "id": "insert__bxbNFL",
+        "icon": "list-plus",
+        "label": "Insert  field"
+      }
+    },
+    {
+      "type": "Multi",
+      "tagName": "multi",
+      "icon": "bullet-list",
+      "tooltip": "Accepts multiple values from a list",
+      "colorClass": "multi",
+      "options": {
+        "sourceType": "ValuesList",
+        "valuesList": {}
+      },
+      "name": "tags",
+      "id": "3HOAEV",
+      "path": ""
+    },
+    {
+      "type": "DateTime",
+      "tagName": "date",
+      "icon": "calendar-clock",
+      "tooltip": "Accepts a date with time",
+      "colorClass": "date",
+      "options": {
+        "dateShiftInterval": "1 day",
+        "dateFormat": "YYYY-MM-DD HH:mm",
+        "defaultInsertAsLink": false,
+        "linkPath": ""
+      },
+      "name": "due",
+      "id": "TPvukc",
+      "path": ""
+    },
+    {
+      "tagName": "file",
+      "icon": "link",
+      "colorClass": "file",
+      "type": "File",
+      "tooltip": "Accepts an internal link",
+      "options": {},
+      "name": "origin note",
+      "id": "Dllqfq",
+      "path": ""
+    },
+    {
+      "type": "Input",
+      "tagName": "single",
+      "icon": "pencil",
+      "tooltip": "Accepts any value",
+      "colorClass": "single",
+      "options": {},
+      "name": "alias",
+      "id": "S4luEf",
+      "path": ""
+    },
+    {
+      "tagName": "file",
+      "icon": "link",
+      "colorClass": "file",
+      "type": "MultiFile",
+      "tooltip": "Accepts multiple internal links",
+      "options": {},
+      "name": "child",
+      "id": "BRKrGW",
+      "path": ""
+    }
+  ],
+  "fileClassQueries": [],
+  "displayFieldsInContextMenu": true,
+  "globallyIgnoredFields": [],
+  "classFilesPath": null,
+  "isAutosuggestEnabled": true,
+  "fileClassAlias": "fileClass",
+  "settingsVersion": "5.14",
+  "firstDayOfWeek": 1,
+  "enableLinks": true,
+  "enableTabHeader": true,
+  "enableEditor": true,
+  "enableBacklinks": true,
+  "enableStarred": true,
+  "enableFileExplorer": true,
+  "enableSearch": true,
+  "enableProperties": true,
+  "tableViewMaxRecords": 20,
+  "frontmatterListDisplay": "asArray",
+  "fileClassExcludedFolders": [],
+  "showIndexingStatusInStatusBar": true,
+  "fileIndexingExcludedFolders": [
+    "_data_/"
+  ],
+  "fileIndexingExcludedExtensions": [
+    ".excalidraw.md"
+  ],
+  "fileIndexingExcludedRegex": [],
+  "frontmatterOnly": true,
+  "showFileClassSelectInModal": true,
+  "chooseFileClassAtFileCreation": false,
+  "autoInsertFieldsAtFileClassInsertion": true,
+  "fileClassIcon": "option",
+  "isAutoCalculationEnabled": true
+}

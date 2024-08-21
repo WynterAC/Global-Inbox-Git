@@ -1,0 +1,92 @@
+{
+  "confirmDeletion": false,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [],
+  "leftRibbon": [
+    {
+      "id": "obsidian-book-search-plugin:open-book-search-modal",
+      "icon": "library",
+      "name": "Book Search: Create new book note",
+      "mode": "any"
+    }
+  ],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [
+    {
+      "id": "obsidian-better-command-palette:open-better-commmand-palette",
+      "icon": "command",
+      "name": "Better Command Palette",
+      "mode": "any",
+      "color": "#bbe4ff"
+    },
+    {
+      "id": "app:open-settings",
+      "icon": "lucide-settings",
+      "name": "Open settings",
+      "mode": "any"
+    }
+  ],
+  "pageHeader": [
+    {
+      "id": "command-palette:open",
+      "icon": "lucide-terminal-square",
+      "name": "Command palette: Open command palette",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-importer:open-modal",
+      "icon": "import",
+      "name": "Importer: Open importer",
+      "mode": "any"
+    }
+  ],
+  "macros": [],
+  "explorer": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": [
+      "Create new book note",
+      "Go to next tab",
+      "Go to previous tab"
+    ]
+  },
+  "spacing": "7",
+  "advancedToolbar": {
+    "rowHeight": 25,
+    "rowCount": 4,
+    "spacing": 15,
+    "buttonWidth": 25,
+    "columnLayout": true,
+    "mappedIcons": [
+      {
+        "commandID": "obsidian-better-command-palette:open-better-commmand-palette",
+        "iconID": "command"
+      },
+      {
+        "commandID": "obsidian-map-view:insert-geolink",
+        "iconID": "map-pin"
+      },
+      {
+        "commandID": "obsidian-linter:paste-as-plain-text",
+        "iconID": "clipboard-x"
+      },
+      {
+        "commandID": "obsidian-book-search-plugin:open-book-search-modal",
+        "iconID": "library"
+      },
+      {
+        "commandID": "buttons:inline-button",
+        "iconID": "toggle-right"
+      },
+      {
+        "commandID": "buttons:button-maker",
+        "iconID": "form-input"
+      }
+    ],
+    "tooltips": false,
+    "heightOffset": 2
+  }
+}

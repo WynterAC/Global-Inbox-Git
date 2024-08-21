@@ -1,0 +1,7 @@
+{
+  "font_folder": "",
+  "font": "all",
+  "force_mode": false,
+  "custom_css_mode": true,
+  "custom_css": "\n.fonts * {\n\t\tfont-family: HelveticaNeue-Light !important;\n\t\t}\n.fonts * {\n\t\tfont-family: HelveticaNeue-Thin !important;\n\t\t}\n.fonts * {\n\t\tfont-family: HelveticaNeue-UltraLight !important;\n\t\t}\n.fonts * {\n\t\tfont-family: SFProDisplay-Thin !important;\n\t\t}\n.fonts * {\n\t\tfont-family: SFProDisplay-Light !important;\n\t\t}\n.fonts * {\n\t\tfont-family: Ariel Unicode MS !important;\n\t\t}\n.fonts * {\n\t\tfont-family: fonts !important;\n\t\t}\n.fonts * {\n\t\tfont-family: fonts !important;\n\t\t}\n.fonts * {\n\t\tfont-family: HelveticaNeue-Light !important;\n\t\t}\n.fonts * {\n\t\tfont-family: HelveticaNeue-Thin !important;\n\t\t}\n.fonts * {\n\t\tfont-family: HelveticaNeue-UltraLight !important;\n\t\t}\n.fonts * {\n\t\tfont-family: Shree-Devanagari-714 !important;\n\t\t}"
+}

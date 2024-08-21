@@ -1,0 +1,6 @@
+{
+  "h1AsTitleSource": true,
+  "briefMax": 128,
+  "titleField": "title",
+  "descField": "note description"
+}

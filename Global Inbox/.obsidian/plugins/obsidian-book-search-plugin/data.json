@@ -1,0 +1,19 @@
+{
+  "folder": "10. Library",
+  "fileNameFormat": "{{title}}",
+  "frontmatter": "",
+  "content": "",
+  "useDefaultFrontmatter": true,
+  "defaultFrontmatterKeyType": "Camel Case",
+  "templateFile": "_data_/Templates/templates/Book_tp.md",
+  "serviceProvider": "google",
+  "naverClientId": "",
+  "naverClientSecret": "",
+  "localePreference": "default",
+  "apiKey": "AIzaSyDhu3HuAW9S1MLuVOGRCEACyxpJQcxN_pM",
+  "openPageOnCompletion": true,
+  "showCoverImageInSearch": false,
+  "enableCoverImageSave": true,
+  "coverImagePath": "10. Library/Cover Images",
+  "askForLocale": false
+}

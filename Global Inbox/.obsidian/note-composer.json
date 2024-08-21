@@ -1,0 +1,5 @@
+{
+  "askBeforeMerging": true,
+  "replacementText": "embed",
+  "template": "_data_/templates/templater/output/Extracted Note"
+}

@@ -1,0 +1,38 @@
+{
+  "userAdmonitions": {
+    "synopsis": {
+      "type": "synopsis",
+      "color": "246, 196, 167",
+      "icon": {
+        "name": "lucide-book-open-text",
+        "type": "obsidian"
+      },
+      "command": false,
+      "title": "Book Synopsis ",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
+    }
+  },
+  "syntaxHighlight": false,
+  "copyButton": true,
+  "version": "10.3.2",
+  "autoCollapse": true,
+  "defaultCollapseType": "open",
+  "injectColor": true,
+  "parseTitles": true,
+  "dropShadow": false,
+  "hideEmpty": true,
+  "open": {
+    "admonitions": true,
+    "icons": true,
+    "other": true,
+    "advanced": false
+  },
+  "icons": [],
+  "useFontAwesome": true,
+  "rpgDownloadedOnce": false,
+  "msDocConverted": false,
+  "useSnippet": true,
+  "snippetPath": "custom-admonitions.2350df"
+}

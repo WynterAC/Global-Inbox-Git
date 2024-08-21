@@ -1,0 +1,9 @@
+{
+  "cssTheme": "Minimal",
+  "theme": "moonstone",
+  "accentColor": "",
+  "baseFontSize": 15,
+  "interfaceFontFamily": "Arial Unicode MS,HelveticaNeue-Light,HelveticaNeue-Thin,Shree Devanagari 714,SF Pro Display,SFProDisplay-Light,SFProDisplay-Thin",
+  "textFontFamily": "HelveticaNeue-Light,Helvetica Neue,Arial Unicode MS,HelveticaNeue-LightItalic,HelveticaNeue-Thin,HelveticaNeue-ThinItalic,HelveticaNeue-UltraLight,HelveticaNeue-UltraLightItalic,Shree Devanagari 714,SFProDisplay-Thin,SFProDisplay-Light",
+  "monospaceFontFamily": "Shree Devanagari 714,Arial Unicode MS"
+}

@@ -1,0 +1,257 @@
+{
+  "main": {
+    "id": "586925543d65b24e",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd440dd2237acb86",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15fc0c578944b004",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10. Library/Goodreads Library.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "fe465f2a11cf1879",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01. Slipbox/workout.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4155c94eeae1c9cf",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "fc69439d8e6ffa9e",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "byModifiedTime"
+          }
+        }
+      },
+      {
+        "id": "9ba6b29acc6551af",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "4accaec7c2aafe55",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "38549452557aab40",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      },
+      {
+        "id": "4626d77f7c35e1d4",
+        "type": "leaf",
+        "state": {
+          "type": "recent-files",
+          "state": {}
+        }
+      },
+      {
+        "id": "285580be1a2cd1a6",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          }
+        }
+      },
+      {
+        "id": "da2ea349a9640acc",
+        "type": "leaf",
+        "state": {
+          "type": "file-tree-view",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 6
+  },
+  "right": {
+    "id": "299e2e394ee02589",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "7b7bb6a1607b87d6",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "01. Slipbox/workout.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "48dc450329457f2a",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "01. Slipbox/workout.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "e9fafb7177aceefa",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "01. Slipbox/workout.md"
+          }
+        }
+      },
+      {
+        "id": "af64feb5119613c6",
+        "type": "leaf",
+        "state": {
+          "type": "file-properties",
+          "state": {
+            "file": "01. Slipbox/workout.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 3
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "command-palette:Open command palette": false,
+      "templates:Insert template": false,
+      "daily-notes:Open today's daily note": false,
+      "publish:Publish changes...": true,
+      "canvas:Create new canvas": false,
+      "graph:Open graph view": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false,
+      "switcher:Open quick switcher": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "cmdr:Book Search: Create new book note": false,
+      "obsidian-importer:Open Importer": false,
+      "quickadd:QuickAdd": false,
+      "omnisearch:Omnisearch": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "dbfolder:Create a new database table": false,
+      "obsidian-kanban:Create new board": false,
+      "markdown-table-editor:Open Markdown Table Editor": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "obsidian-map-view:Open map view": false,
+      "obsidian-extract-pdf-highlights:PDF Highlights": false,
+      "obsidian-read-it-later:ReadItLater: Save clipboard": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
+    }
+  },
+  "active": "fe465f2a11cf1879",
+  "lastOpenFiles": [
+    "_data_/system",
+    "_data_/system/fonts",
+    "_data_/system/fonts/",
+    "10. Library/Goodreads Library.md",
+    "01. Slipbox/workout.md",
+    "_data_/system/fonts/Shree-Devanagari-714.ttf",
+    "_data_/system/fonts/HelveticaNeue-Light.woff",
+    "_data_/system/fonts/HelveticaNeue.woff",
+    "_data_/system/fonts/SFProDisplay-Thin.woff",
+    "_data_/system/fonts/SFProDisplay-Light.woff",
+    "_data_/system/fonts/HelveticaNeue-Thin.woff",
+    "_data_/system/fonts/HelveticaNeue-Italic.woff",
+    "_data_/system/fonts/HelveticaNeue-LightItalic.woff",
+    "_data_/system/fonts/_fonts.md",
+    "_data_/Templates/templater/elements/metadata/YAML Header.md",
+    "_data_/Templates/templater/elements/metadata/YAML CSS Class.md",
+    "_data_/Templates/templater/elements/metadata/YAML Annotator Target.md",
+    "_data_/Templates/templater/indexing/Folder Index(for folder note).md",
+    "_data_/Templates/templater/indexing/Index note template.md",
+    "_data_/Templates/templater/indexing/Folder structure.md",
+    "_data_/Templates/templater/indexing/Element Structure and Formats.md",
+    "_data_/Templates/templater/indexing/files_created_at.md",
+    "_data_/Templates/templater/elements/Video Template.md",
+    "_data_/Templates/templater/elements/Embed Tweet.md",
+    "_data_/Templates/templater/elements/Video Wrapper (YouTube).md",
+    "_data_/Templates/templater/elements/Insert external link.md",
+    "_data_/Templates/templater/elements/Link to New Project.md",
+    "_data_/Templates/templater/elements/newcallout.md",
+    "_data_/Templates/templater/elements/Insert formula variable definition.md",
+    "_data_/Templates/templater/elements/Insert code block.md",
+    "_data_/Templates/templater/elements/Math formula.md",
+    "_data_/Templates/templater/elements/Insert columns.md",
+    "_data_/Templates/templater/elements/newdefinition.md",
+    "_data_/Templates/templater/elements/Embed Image & Video (links, youtube etc).md",
+    "_data_/Templates/templater/elements/Table Snippet.md",
+    "_data_/Templates/templater/elements/Sticky Note - Right aligned.md",
+    "_ob_/Plug-ins/Plug-ins.canvas",
+    "Databases/-- E-mail Correspondence/Program Inquiry/_attachments/137-information.png",
+    "Databases/-- Grad Programs/Medical Neuroscience, Cert  Michigan State University/_attachments/spartan-helmet-og.png",
+    "Databases/-- Grad Programs/Applied Neuroscience/_attachments/APPNEU1-1920x805-2.jpg",
+    "Databases/-- E-mail Correspondence/Laura Brompton - Reference Letter Inquiry/_attachments/018-advice.png",
+    "Databases/-- Grad Programs/M.Sc. Cognitive Sciences - CUNY/_attachments/082-global-education.png",
+    "Databases/--  Advisors Contact/_attachments/107-friends.png",
+    "Databases/-- Application Document Materials/_attachments/file-and-folders.png",
+    "Databases/-- Universities/_attachments/174-bank-4.png",
+    "Databases/-- E-mail Correspondence/_attachments/044-mail-1.png",
+    "Databases/Professors/_attachments/099-account-1.png"
+  ]
+}
