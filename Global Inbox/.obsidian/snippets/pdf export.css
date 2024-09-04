@@ -1,0 +1,55 @@
+/* General styles for PDF export */
+
+/* Set default font to Helvetica Neue, fallback to system font */
+body, p, li, span, div {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 200; /* Default body text weight */
+    line-height: 1.5; /* Default line height */
+}
+
+/* Apply font weight 300 to all headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+}
+
+/* Bold text with font weight 300 */
+strong, b {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+}
+
+/* Ensure that callout titles also use Helvetica Neue with weight 200 */
+.callout-title, .admonition-title {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+}
+
+/* Ensure proper styling for inline code and code blocks */
+code, pre {
+    font-family: "Shree Devanagari 714", "Arial Unicode MS", monospace;
+}
+
+/* Style inline code snippets */
+code {
+    background-color: #f9f9fd;
+    border-radius: 3px;
+    padding: 2px 4px;
+}
+
+/* Style code blocks */
+pre {
+    background-color: #f9f9f9;
+    border-radius: 3px;
+    padding: 8px;
+    overflow-x: auto;
+}
+
+/* Borders for callouts and admonitions */
+.callout, .admonition {
+    border: 1px solid #dcdcdc; /* Light grey border */
+}
+
+.callout.no-border, .admonition.no-border {
+    border: none;
+}

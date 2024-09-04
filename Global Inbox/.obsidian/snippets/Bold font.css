@@ -1,0 +1,11 @@
+/* Apply Helvetica Neue with weight 300 for bold text */
+strong, b {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+}
+
+/* Apply Helvetica Neue with weight 300 for bold text in the editor */
+.cm-s-obsidian .cm-strong, .cm-s-obsidian .cm-header strong, .cm-s-obsidian .cm-header b {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+}

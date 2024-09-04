@@ -1,0 +1,19 @@
+/* Apply Shree Devanagari 714 to all monospace text, with Arial Unicode MS as fallback */
+code, pre, .cm-s-obsidian .cm-inline-code {
+    font-family: "Shree Devanagari 714", "Arial Unicode MS", monospace;
+}
+
+/* Style inline code snippets */
+code, .cm-s-obsidian .cm-inline-code {
+    background-color: #f9f9fd;
+    border-radius: 3px;
+    padding: 2px 4px;
+}
+
+/* Style code blocks */
+pre, .cm-s-obsidian .cm-code {
+    background-color: #f9f9f9;
+    border-radius: 3px;
+    padding: 8px;
+    overflow-x: auto;
+}

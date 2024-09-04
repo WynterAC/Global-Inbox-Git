@@ -1,0 +1,17 @@
+/* Set default font for text to Helvetica Neue with ultralight weight */
+body, p, li, h1, h2, h3, h4, h5, h6, span, div {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+}
+
+/* Ensure text in the editor also uses ultralight Helvetica Neue */
+.cm-s-obsidian .CodeMirror-line {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+}
+
+/* Apply ultralight font weight to text in other UI elements */
+.workspace-leaf-content, .markdown-preview-view, .markdown-source-view, .markdown-preview-section {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+}

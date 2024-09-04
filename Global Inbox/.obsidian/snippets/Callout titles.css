@@ -1,0 +1,21 @@
+/* Apply Helvetica Neue with font weight 200 to callout titles */
+.callout-title {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+}
+
+/* Apply Helvetica Neue with font weight 200 to admonition titles */
+.admonition-title {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+}
+
+/* Set all callout and admonition borders to 1px or none */
+.callout, .admonition {
+    border: 1px solid #dcdcdc; /* Light grey border for visibility, adjust as needed */
+}
+
+/* Remove borders if desired */
+.callout.no-border, .admonition.no-border {
+    border: none;
+}

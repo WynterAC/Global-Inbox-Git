@@ -1,0 +1,9 @@
+/* Apply Arial Unicode MS to all settings panels, sidebars, ribbons, and other UI elements */
+div, span, input, button, select, textarea, .workspace-ribbon, .workspace-leaf, .side-dock, .workspace-tabs, .modal-content, .setting-item, .workspace-split, .workspace-split.mod-root, .titlebar-text, .titlebar, .status-bar, .status-bar-item {
+    font-family: "Arial Unicode MS", sans-serif;
+}
+
+/* Set normal font weight for bold text in UI elements */
+div strong, div b, span strong, span b, input strong, input b, button strong, button b, select strong, select b, textarea strong, textarea b {
+    font-weight: normal;
+}

@@ -1,0 +1,25 @@
+
+/* Importing Helvetica Neue font from cdnfonts.com */
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55?styles=30125,16015,16017,16008,16007,15981,15980,15991,15992,30126,30127,30134,30129,30123,16011,30135,30132');
+
+/* Shree Devanagari 714 font face */
+@font-face {
+    font-family: "Shree Devanagari 714";
+    src: local("Shree Devanagari 714"), 
+         local("ShreeDev0714"),
+         url("https://github.com/WynterAC/Digital-Resources/blob/8aadc982ec2365535f09ae015a69db23ac69aa41/_Font%20Library%20/Font%20Files%20/Monospace/Shree-Devanagari-714.ttf") format("truetype"), 
+         url("https://github.com/WynterAC/Digital-Resources/blob/8aadc982ec2365535f09ae015a69db23ac69aa41/_Font%20Library%20/Font%20Files%20/Monospace/ShreeDev0714/ShreeDev0714.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Arial Unicode MS font face */
+@font-face {
+    font-family: "Arial Unicode MS";
+    src: local("Arial Unicode MS"), 
+         url("https://github.com/WynterAC/Digital-Resources/blob/8aadc982ec2365535f09ae015a69db23ac69aa41/_Font%20Library%20/Font%20Files%20/Monospace/Arial%20Unicode%MS.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
