@@ -1,0 +1,607 @@
+/* @settings
+name: 🔗 Bad Links - Version 1
+id: atx-blv1
+settings:
+-
+    id:                     atx-blv1-cat-general
+    title:                  '1. Appearance'
+    description:            'General appearance settings'
+    type:                   heading
+    level:                  1
+    collapsed:              true
+
+
+-
+        id:                 atx-blv1-bg-about
+        title:              ''
+        description:        "<br /><br /><h1>Background</h1>Settings to adjust the background for the main panel."
+        type:               info-text
+        markdown:           true
+-
+        id:                 atx-blv1-bg-custom-enabled
+        title:              Activate Custom Background Image
+        type:               class-toggle
+        default:            true
+-
+        id:                 atx-blv1-bg-clr
+        title:              'Background Color'
+        description:        'Main interface background (only visible if custom background disabled)'
+        type:               variable-themed-color
+        opacity:            true
+        format:             rgb
+        default-light:      'rgba( 41, 41, 41, 1 )'
+        default-dark:       'rgba( 41, 41, 41, 1 )'
+-
+        id:                 atx-blv1-bg-custom-image
+        title:              'Background Image (url)'
+        description:        'Customize the background image. Use the format in the Default below for an Online image.'
+        type:               variable-text
+        default:            'url("https://")'
+-
+        id:                 atx-blv1-bg-custom-opacity
+        title:              'Background Image Opacity'
+        description:        'Background image alpha / opacity'
+        type:               variable-number-slider
+        default:            0.4
+        min:                0
+        max:                1
+        step:               0.01
+        format:             ""
+-
+        id:                 atx-blv1-bg-width
+        title:              'Background / Table Width'
+        description:        'Width for the entire box'
+        type:               variable-number-slider
+        default:            75
+        min:                0
+        max:                100
+        step:               1
+        format:             "%"
+-
+        id:                 atx-blv1-bg-border-clr
+        title:              'Border & Separator Color'
+        description:        'Color for border and separators.'
+        type:               variable-themed-color
+        opacity:            true
+        format:             rgb
+        default-light:      'rgba( 255, 255, 255, 0.4 )'
+        default-dark:       'rgba( 255, 255, 255, 0.4 )'
+
+
+-
+
+
+        id:                 atx-blv1-general-about
+        title:              ''
+        description:        "<br /><br /><h1>General</h1>General settings not categorized anywhere else.<br /><br />`None Yet`"
+        type:               info-text
+        markdown:           true
+
+
+-
+
+
+        id:                 atx-blv1-header-about
+        title:              ''
+        description:        "<br /><br /><h1>Header</h1>The following settings adjust the header of the interface."
+        type:               info-text
+        markdown:           true
+-
+        id:                 atx-blv1-header-font-size
+        title:              'Description Font Size'
+        description:        'Font size for header description text.'
+        type:               variable-number-slider
+        default:            13
+        format:             px
+        min:                0
+        max:                30
+        step:               1
+-
+        id:                  atx-blv1-header-font-clr
+        title:              'Description Font Color'
+        description:        'Font color for header description text.'
+        type:               variable-themed-color
+        opacity:            true
+        format:             rgb
+        default-light:      'rgb( 182, 182, 182, 1 )'
+        default-dark:       'rgb( 182, 182, 182, 1 )'
+
+
+-
+
+
+        id:                 atx-blv1-list-subj-notename-about
+        title:              ''
+        description:        "<br /><br /><h1>Unresolved Note Name</h1>The following settings adjust the note name."
+        type:               info-text
+        markdown:           true
+-
+        id:                 atx-blv1-list-subj-notename-font-size
+        title:              'Font Size'
+        description:        'Font size for page titles in unresolved list.'
+        type:               variable-number-slider
+        default:            17
+        format:             px
+        min:                0
+        max:                30
+        step:               1
+-
+        id:                 atx-blv1-list-subj-notename-font-clr-n
+        title:              'Font Color (Normal)'
+        description:        'Font color for page titles in unresolved list.'
+        type:               variable-themed-color
+        opacity:            true
+        format:             rgb
+        default-light:      'rgb( 255, 85, 125, 1 )'
+        default-dark:       'rgb( 255, 85, 125, 1 )'
+-
+        id:                 atx-blv1-list-subj-notename-font-clr-h
+        title:              'Font Color (Hover)'
+        description:        'Font color for page titles in unresolved list.'
+        type:               variable-themed-color
+        opacity:            true
+        format:             rgb
+        default-light:      'rgb( 255, 204, 255, 1 )'
+        default-dark:       'rgb( 255, 255, 255, 1 )'
+
+
+-
+
+
+        id:                 atx-blv1-list-subj-filename-about
+        title:              ''
+        description:        "<br /><br /><h1>Unresolved File Name</h1>The following settings adjust file path listed below each note."
+        type:               info-text
+        markdown:           true
+-
+        id:                 atx-blv1-list-subj-filename-font-size
+        title:              'Font Size'
+        description:        'Font size for page file.'
+        type:               variable-number-slider
+        default:            12
+        format:             px
+        min:                0
+        max:                30
+        step:               1
+-
+        id:                 atx-blv1-list-subj-filename-font-clr
+        title:              'Font Color'
+        description:        'Font color for page file.'
+        type:               variable-themed-color
+        opacity:            true
+        format:             rgb
+        default-light:      'rgb( 180, 180, 180, 1 )'
+        default-dark:       'rgb( 180, 180, 180, 1 )'
+-
+        id:                 atx-blv1-list-subj-filename-padding-about
+        title:              'Padding'
+        description:        "Different themes use different padding. Use this setting to adjust the position of the file name shown below each note.<br /><br /> Order of values: `top, right, bottom, left`"
+        type:               info-text
+        markdown:           true
+-
+        id:                 atx-blv1-list-subj-filename-padding
+        title:              ''
+        description:        ''
+        type:               variable-text
+        markdown:           true
+        default:            '0px 0px 10px 0px'
+
+
+-
+
+
+        id:                 atx-blv1-list-unresolved-about
+        title:              ''
+        description:        "<br /><br /><h1>Unresolved File List</h1>The following settings adjust the list of unresolved items displayed below each note title."
+        type:               info-text
+        markdown:           true
+-
+        id:                 atx-blv1-list-unresolved-font-size
+        title:              'Font Size'
+        description:        'Font size for page titles in unresolved list.'
+        type:               variable-number-slider
+        default:            12
+        format:             px
+        min:                0
+        max:                30
+        step:               1
+-
+        id:                 atx-blv1-list-unresolved-font-clr-n
+        title:              'Font Color (Normal)'
+        description:        'Font color for page titles in unresolved list.'
+        type:               variable-themed-color
+        opacity:            true
+        format:             rgb
+        default-light:      'rgb( 255, 255, 255, 1 )'
+        default-dark:       'rgb( 255, 255, 255, 1 )'
+-
+        id:                 atx-blv1-list-unresolved-font-clr-h
+        title:              'Font Color (Hover)'
+        description:        'Font color for page titles in unresolved list.'
+        type:               variable-themed-color
+        opacity:            true
+        format:             rgb
+        default-light:      'rgb( 239, 84, 113, 1 )'
+        default-dark:       'rgb( 239, 84, 113, 1 )'
+
+
+-
+
+
+        id:                 atx-blv1-list-counter-about
+        title:              ''
+        description:        "<br /><br /><h1>Issue Counter</h1>The following settings adjust the issue counter on the right side of each issue inside the pulsing circle."
+        type:               info-text
+        markdown:           true
+-
+        id:                 atx-blv1-list-counter-circle-clr
+        title:              'Circle Color'
+        description:        'Background color for issue circle.'
+        type:               variable-themed-color
+        opacity:            true
+        format:             hex
+        default-light:      '#a32b5d'
+        default-dark:       '#a32b5d'
+-
+        id:                 atx-blv1-list-counter-font-size
+        title:              'Font Size'
+        description:        'Font size for issue count indicator.'
+        type:               variable-number-slider
+        default:            12
+        format:             px
+        min:                0
+        max:                30
+        step:               1
+-
+        id:                 atx-blv1-list-counter-font-clr
+        title:              'Font Color'
+        description:        'Font color for issue count indicator.'
+        type:               variable-themed-color
+        opacity:            true
+        format:             hex
+        default-light:      '#FFFFFF'
+        default-dark:       '#FFFFFF'
+
+
+-
+
+
+    id:                     atx-blv1-cat-anim
+    title:                  '2. Animations'
+    description:            'Animation settings'
+    type:                   heading
+    level:                  1
+    collapsed:              true
+-
+        id:                 atx-blv1-cat-anim-1
+        title:              'Ripple Animation'
+        description:        'Play animation around issue count indicator'
+        type:               class-select
+        allowEmpty:         false
+        default:            anim-1-enabled
+        options:
+        -
+            label: Enabled
+            value: anim-1-enabled
+        -
+            label: Disabled
+            value: anim-1-disabled
+-
+        id:                 atx-blv1-anim-clr-r
+        title:              'Ripple Color (Red)'
+        description:        'Individual Red value for the ripple color'
+        type:               variable-text
+        default:            "255"
+-
+        id:                 atx-blv1-anim-clr-g
+        title:              'Ripple Color (Green)'
+        description:        'Individual Green value for the ripple color'
+        type:               variable-text
+        default:            "255"
+-
+        id:                 atx-blv1-anim-clr-b
+        title:              'Ripple Color (Blue)'
+        description:        'Individual Blue value for the ripple color'
+        type:               variable-text
+        default:            "255"
+
+
+-
+
+
+    id:                     atx-blv1-cat-support
+    title:                  '3. Support'
+    description:            'Links associated to this snippet'
+    type:                   heading
+    level:                  1
+    collapsed:              true
+-
+    id:                     atx-blv1-support-updates
+    title:                  View Updates
+    description:            "[https://github.com/Aetherinox/obsidian-dataview-snippets](https://github.com/Aetherinox/obsidian-dataview-snippets)"
+    type:                   info-text
+    markdown:               true
+-
+
+*/
+
+    /*
+        Import
+    */
+
+        @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+    /*
+        animation: ripple
+    */
+
+        @keyframes atx-blv1-anim-ripple
+        {
+            0%
+            {
+                box-shadow:             0 0 0 0 rgba( var( --color_ripple ), 0.9 );
+            }
+
+            20%, 70%
+            {
+                box-shadow:             0 0 0 11px rgba( var( --color_ripple ), 0 );
+            }
+
+            100%
+            {
+                box-shadow:             0 0 0 0 rgba( var( --color_ripple ), 0 );
+            }
+        }
+
+    /*
+        Snippet: Bad Links - Version 1
+    */
+
+        body
+        {
+            --atx-blv1-anim-clr-r:                      255;
+            --atx-blv1-anim-clr-g:                      255;
+            --atx-blv1-anim-clr-b:                      255;
+            --color_ripple:                             var( --atx-blv1-anim-clr-r ), var( --atx-blv1-anim-clr-g ), var( --atx-blv1-anim-clr-b );
+            --atx-blv1-anim-delay:                      2s;
+            --atx-blv1-anim-1:                          atx-blv1-anim-ripple;
+            --atx-blv1-bg-custom-image:                 url("https://r1.ilikewallpaper.net/ipad-pro-wallpapers/download/100031/dark-blur-abstract-4k-ipad-pro-wallpaper-ilikewallpaper_com.jpg");
+            --atx-blv1-bg-custom-opacity:               0.4;
+            --atx-blv1-bg-width:                        75%;
+            --atx-blv1-bg-clr:                          rgba( 41, 41, 41, 1 );
+            --atx-blv1-bg-border-clr:                   rgba( 255, 255, 255, 0.2 );
+
+            --atx-blv1-list-counter-font-size:          12px;
+            --atx-blv1-list-counter-circle-clr:         #a32b5d;
+            --atx-blv1-list-counter-font-clr:           #FFFFFF;
+
+            --atx-blv1-list-subj-notename-font-size:    17px;
+            --atx-blv1-list-subj-notename-font-clr-n:   rgb( 255, 85, 125, 1 );
+            --atx-blv1-list-subj-notename-font-clr-h:   rgb( 255, 255, 255, 1 );
+
+            --atx-blv1-list-unresolved-font-size:       12px;
+            --atx-blv1-list-unresolved-font-clr-n:      rgb( 255, 255, 255, 1 );
+            --atx-blv1-list-unresolved-font-clr-h:      rgb( 239, 84, 113, 1 );
+
+            --atx-blv1-list-subj-filename-font-size:    12px;
+            --atx-blv1-list-subj-filename-font-clr:     rgb( 180, 180, 180, 1 );
+            --atx-blv1-list-subj-filename-padding:      0px 0px 10px 0px;
+
+            --atx-blv1-header-font-size:                13px;
+            --atx-blv1-header-font-clr:                 rgb( 182, 182, 182, 1 );
+        }
+
+    /*
+        Settings > Animations
+    */
+
+        body.theme-light.anim-1-disabled,
+        body.theme-dark.anim-1-disabled
+        {
+            --atx-blv1-anim-1:          none;
+        }
+        
+        body.theme-light.anim-1-enabled,
+        body.theme-dark.anim-1-enabled
+        {
+            --atx-blv1-anim-1:          atx-blv1-anim-ripple;
+        }
+
+        body.colorful-link-animation :is(.markdown-preview-view,.markdown-rendered) a:hover
+        {
+            animation:                  none !important; 
+        }
+
+        body:not( .atx-blv1-bg-custom-enabled )
+        {
+            --atx-blv1-bg-custom-image: none;
+        }
+
+    /*
+        Dataview parent div
+    */
+
+        .atx-blv1-dataview
+        {
+            border-radius:              6px;
+            border:                     1px dashed #444444;
+            width:                      var( --atx-blv1-bg-width );
+            padding:                    0px;
+            margin:                     0 auto;
+        }
+
+    /*
+        Header
+    */
+
+        .atx-blv1-header-left
+        {
+            float:                      left;
+        }
+
+        .atx-blv1-header-right
+        {
+            float:                      right;
+        }
+
+        .atx-blv1-header-right > select
+        {
+            cursor:                     pointer;
+            margin-top:                 10px;
+        }
+
+        .atx-blv1-header-about
+        {
+            font-size:                  var( --atx-blv1-header-font-size );
+            color:                      var( --atx-blv1-header-font-clr );
+        }
+
+    /*
+        Generic Containers
+    */
+
+        .atx-blv1-ct-left
+        {
+            float:                      left;
+            width:                      75%;
+        }
+        
+        .atx-blv1-ct-right
+        {
+            float:                      right;
+            width:                      10%;
+        }
+
+        .atx-blv1-ct-clear
+        {
+            clear:                      both;
+        }
+
+    /*
+        root > background
+    */
+
+        .atx-blv1-bg::before
+        {
+            content:                    "";
+            background-color:           var( --atx-blv1-bg-clr );
+            background-image:           var( --atx-blv1-bg-custom-image );
+            background-position:        center;
+            background-repeat:          no-repeat;
+            background-size:            cover;
+            position:                   absolute;
+            top:                        50%;
+            left:                       50%;
+            transform:                  translate( -50%, -50% );
+            width:                      var( --atx-blv1-bg-width );
+            height:                     100%;
+            opacity:                    var( --atx-blv1-bg-custom-opacity );
+            margin:                     0 auto;
+            z-index:                    -1;
+        }
+
+    /*
+        root
+    */
+
+        .atx-blv1-root
+        {
+            padding:                    20px;
+            padding-top:                10px;
+        }
+
+        .atx-blv1-ct-left > span > a
+        {
+            color:                      var( --atx-blv1-list-subj-notename-font-clr-n ) !important;
+            font-weight:                normal !important;
+            font-size:                  var( --atx-blv1-list-subj-notename-font-size );
+        }
+
+        .atx-blv1-ct-left > span > a:hover
+        {
+            color:                      var( --atx-blv1-list-subj-notename-font-clr-h ) !important;
+            background:                 none;
+            cursor:                     pointer;
+        }
+
+        .atx-blv1-list a
+        {
+            color:                      var( --atx-blv1-list-unresolved-font-clr-n ) !important;
+            font-weight:                normal;
+            font-size:                  var( --atx-blv1-list-unresolved-font-size );
+        }
+
+        .atx-blv1-list a:hover
+        {
+            color:                      var( --atx-blv1-list-unresolved-font-clr-h ) !important;
+            font-weight:                normal;
+            font-size:                  var( --atx-blv1-list-unresolved-font-size );
+            background:                 none;
+        }
+
+    /*
+        issue path
+    */
+
+        .atx-blv1-list-file-path
+        {
+            font-size:                  var( --atx-blv1-list-subj-filename-font-size );
+            padding:                    var( --atx-blv1-list-subj-filename-padding );
+            color:                      var( --atx-blv1-list-subj-filename-font-clr );
+        }
+
+    /*
+        Spacers
+    */
+
+        .atx-blv1-spacer
+        {
+            border-top:                 1px dashed var( --atx-blv1-bg-border-clr );
+        }
+
+        .atx-blv1-spacer-full
+        {
+            border-top:                 1px dashed var( --atx-blv1-bg-border-clr );
+        }
+
+        .atx-blv1-spacer-compact
+        {
+            margin-top:                 20px;
+            border-top:                 1px dashed var( --atx-blv1-bg-border-clr );
+        }
+
+    /*
+        root > count issues
+    */
+
+        .atx-blv1-list-count
+        {
+            border-radius:              50%;
+            background:                 var( --atx-blv1-list-counter-circle-clr );
+            color:                      var( --atx-blv1-list-counter-font-clr );
+            font-weight:                bold !important;
+            text-align:                 center;
+            font:                       var( --atx-blv1-list-counter-font-size ) sans-serif;
+            vertical-align:             middle;
+            margin:                     auto 0;
+            line-height:                22px;
+            transform:                  translateX(-50%);
+            width:                      22px !important;
+            height:                     22px !important;
+            animation-name:             var( --atx-blv1-anim-1 );
+            animation-duration:         6s;
+            animation-timing-function:  ease;
+            animation-iteration-count:  infinite;
+            animation-direction:        normal;
+        }
+
+    /*
+        no results
+    */
+
+        .atx-blv1-noresults
+        {
+            padding-bottom: 35px;
+            font-size: 16px;
+            font-family: "Open Sans";
+        }

@@ -1,25 +1,141 @@
-
-/* Importing Helvetica Neue font from cdnfonts.com */
-@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55?styles=30125,16015,16017,16008,16007,15981,15980,15991,15992,30126,30127,30134,30129,30123,16011,30135,30132');
-
-/* Shree Devanagari 714 font face */
+/* Define font faces for Helvetica Neue, Arial Unicode MS, SF Pro Diaplay and Shree Devanagari 714 */
 @font-face {
-    font-family: "Shree Devanagari 714";
-    src: local("Shree Devanagari 714"), 
-         local("ShreeDev0714"),
-         url("https://github.com/WynterAC/Digital-Resources/blob/8aadc982ec2365535f09ae015a69db23ac69aa41/_Font%20Library%20/Font%20Files%20/Monospace/Shree-Devanagari-714.ttf") format("truetype"), 
-         url("https://github.com/WynterAC/Digital-Resources/blob/8aadc982ec2365535f09ae015a69db23ac69aa41/_Font%20Library%20/Font%20Files%20/Monospace/ShreeDev0714/ShreeDev0714.woff") format("woff");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 100;
+  src: url('./HelveticaNeue-UltraLight.woff') format('woff'),
+       url('https://fonts.cdnfonts.com/s/62895/HelveticaNeueUltraLight.woff') format('woff');
 }
 
-/* Arial Unicode MS font face */
 @font-face {
-    font-family: "Arial Unicode MS";
-    src: local("Arial Unicode MS"), 
-         url("https://github.com/WynterAC/Digital-Resources/blob/8aadc982ec2365535f09ae015a69db23ac69aa41/_Font%20Library%20/Font%20Files%20/Monospace/Arial%20Unicode%MS.ttf") format("truetype");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Helvetica Neue";
+  font-style: italic;
+  font-weight: 100;
+  src: url('./HelveticaNeue-UltraLightItalic.woff') format('woff'),
+       url('https://fonts.cdnfonts.com/s/62895/HelveticaNeueUltraLightItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 150;
+  src: url('./HelveticaNeue-Thin.woff') format('woff'),
+       url('https://fonts.cdnfonts.com/s/62895/HelveticaNeueThin.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  font-style: italic;
+  font-weight: 150;
+  src: url('./HelveticaNeue-ThinItalic.woff') format('woff'),
+       url('https://fonts.cdnfonts.com/s/62895/HelveticaNeueThinItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 200;
+  src: url('./HelveticaNeue-Light.woff') format('woff'),
+       url('https://fonts.cdnfonts.com/s/62895/HelveticaNeueLight.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  font-style: italic;
+  font-weight: 200;
+  src: url('./HelveticaNeue-LightItalic.woff') format('woff'),
+       url('https://fonts.cdnfonts.com/s/62895/HelveticaNeueLightItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 300;
+  src: url('./HelveticaNeue-Regular.woff') format('woff'),
+       url('https://fonts.cdnfonts.com/s/62895/HelveticaNeue.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  font-style: italic;
+  font-weight: 300;
+  src: url('./HelveticaNeue-Italic.woff') format('woff'),
+       url('https://fonts.cdnfonts.com/s/62895/HelveticaNeueItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Shree Devanagari 714";
+  font-style: normal;
+  font-weight: 400;
+  src: url('./Shree-Devanagari-714.ttf') format('tff'),
+       url('https://db.onlinewebfonts.com/t/d02befc8fdd8e5315fb21fa7f38fd55a.woff') format('woff');
+}
+@font-face {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 100;
+  src: url('./SFProDisplay-UltraLight.woff') format('woff');
+}
+@font-face {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 200;
+  src: url('./SFProDisplay-Thin.woff') format('woff');
+}
+@font-face {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 300;
+  src: url('./SFProDisplay-Light.woff') format('woff');
+}
+@font-face {
+  font-family: "SF Pro Display";
+  font-style: italic;
+  font-weight: 100;
+  src: url('./SFProDisplay-UltraLightItalic.woff') format('woff');
+}
+@font-face {
+  font-family: "SF Pro Display";
+  font-style: italic;
+  font-weight: 200;
+  src: url('./SFProDisplay-ThinItalic.woff') format('woff');
+}
+@font-face {
+  font-family: "SF Pro Display";
+  font-style: italic;
+  font-weight: 300;
+  src: url('./SFProDisplay-LightItalic.woff') format('woff');
+}
+
+
+
+/* Set font for editor */
+.editor {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 150;
+}
+
+.editor strong,.editor b {
+  font-weight: 200;
+}
+
+/* Set font for monospace or codes (inline and block) */
+code, pre {
+  font-family: "Shree Devanagari 714", monospace;
+  font-weight: normal;
+}
+
+/* Set font for reading mode */
+.reading-mode {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 150;
+}
+
+.reading-mode strong,.reading-mode b {
+  font-weight: 200;
+}
+
+.reading-mode code,.reading-mode pre {
+  font-family: "Shree Devanagari 714", monospace;
+  font-weight: normal;
 }
