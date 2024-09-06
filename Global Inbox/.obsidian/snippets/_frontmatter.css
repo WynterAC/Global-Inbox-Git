@@ -1,0 +1,13 @@
+/* Apply Shree Devanagari 714 or Arial Unicode MS to YAML frontmatter in the editor */
+.cm-s-obsidian .cm-hmd-frontmatter,
+.cm-s-obsidian .cm-meta,
+.cm-s-obsidian .HyperMD-header--yaml {
+    font-family: "Shree Devanagari 714", "Arial Unicode MS", "SF Pro Display",sans-serif;
+}
+
+/* Optional: Set specific font weight for better readability */
+.cm-s-obsidian .cm-hmd-frontmatter,
+.cm-s-obsidian .cm-meta,
+.cm-s-obsidian .HyperMD-header--yaml {
+    font-weight: 300; /* Set normal font weight */
+}

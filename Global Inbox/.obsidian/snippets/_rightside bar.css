@@ -1,0 +1,13 @@
+/* Apply Arial Unicode MS with a lighter fallback font for the right sidebar, ribbons, and UI elements */
+.workspace-ribbon.mod-right,
+.sidebar.mod-right,
+.outliner,
+.outliner-item,
+.tag-pane, 
+.tag-pane-tag,
+.search-result-file-title,
+.search-result-file-matches,
+.search-result-header {
+    font-family: "Arial Unicode MS", "Helvetica Neue", sans-serif;
+    font-weight: 300; /* Set to lighter weight for the fallback font */
+}

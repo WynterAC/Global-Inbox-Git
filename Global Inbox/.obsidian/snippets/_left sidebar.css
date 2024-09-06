@@ -1,0 +1,14 @@
+/* Apply Arial Unicode MS to the left sidebar, ribbons, and UI elements */
+.sidebar, 
+.workspace-ribbon, 
+.workspace-split, 
+.nav-folder, 
+.nav-file-title, 
+.nav-folder-title, 
+.nav-file, 
+.nav-header,
+.workspace-tab-header,
+.workspace-tab-header-title {
+    font-family: "Arial Unicode MS", sans-serif;
+    font-weight: 300; /* Set to normal weight by default */
+}

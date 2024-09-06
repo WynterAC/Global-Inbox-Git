@@ -1,0 +1,12 @@
+/* Increase spacing between folders and files in File Tree Alternative plugin */
+.file-tree-view .nav-folder,
+.file-tree-view .nav-file {
+    margin-bottom: 12px; /* More spacing between folders and files */
+}
+
+/* Add more padding within folder and file titles for a spaced-out feel */
+.file-tree-view .nav-folder-title-content,
+.file-tree-view .nav-file-title {
+    padding: 8px 12px; /* Increase padding for better spacing */
+}
+
